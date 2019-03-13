@@ -1,13 +1,10 @@
 #!/usr/bin/env python
 
-import pathlib
 from setuptools import setup, find_packages
 
-# The directory containing this file
-HERE = pathlib.Path( __file__ ).parent
-
 # The text of the README file
-README = ( HERE / "Readme.md" ).read_text()
+with open( 'Readme.md' ) as f:
+    README = f.read()
 
 setup(
     name='complicated',
