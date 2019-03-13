@@ -5,9 +5,9 @@
 Complicated is a simple app that lets you update your Apple Watch face complications
 with WebHooks.
 
-![Complicated Watch Your Text Here](https://mikelyons.org/images/complicated/watch_your_message.png)
+[![Complicated Watch Your Text Here](https://mikelyons.org/images/complicated/watch_your_message.png)](https://mikelyons.org/complicated)
 
-![Complicated Download App](https://mikelyons.org/images/complicated/download.png)
+[![Complicated Download App](https://mikelyons.org/images/complicated/download.png)](https://itunes.apple.com/us/app/complicated/id1444561091?ls=1&mt=8)
 
 ## How to install `complicated-python`
 
