@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+
+import argparse
+
+from complicated import changeComplication, COMPLICATION_TYPES
+
+valid_complication_types = COMPLICATION_TYPES.getValidComplciationTypes()
+
+def parseArguments():
+    def checkComplicationType( value ):
+        if value not in valid_complication_types:
+            raise argparse.ArgumentTypeError( 'Invalid complication type "{}". Valid values are: [{}]'.format( value, ', '.join( valid_complication_types ) ) )
+        return value
+    parser = argparse.ArgumentParser( description='', formatter_class=argparse.RawTextHelpFormatter )
+    parser.add_argument( 'api_key', help='Complicated API Key. Get this from the Complicated App', type=str )
+    parser.add_argument( 'complication_type', help='Complication type. Valid values are: [{}]'.format( ', '.join( valid_complication_types ) ), type=checkComplicationType)
+    parser.add_argument( 'new_value', help='The new value', type=str )
+    return parser.parse_args()
+
+def main():
+    new_arguments = parseArguments()
+    print( new_arguments )
+    changeComplication( new_arguments.api_key, new_arguments.complication_type, new_arguments.new_value )
+
+main()

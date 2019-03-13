@@ -1,0 +1,9 @@
+setup.py
+bin/complicated
+complicated/__init__.py
+complicated/lib.py
+complicated.egg-info/PKG-INFO
+complicated.egg-info/SOURCES.txt
+complicated.egg-info/dependency_links.txt
+complicated.egg-info/requires.txt
+complicated.egg-info/top_level.txt
