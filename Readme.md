@@ -1,9 +1,9 @@
 # Complicated
 
-## What is Complciated?
+## What is Complicated?
 
-Complicated is a simple app that lets you update your Apple Watch face complications
-with WebHooks.
+Complicated is a simple app that lets you update your Apple Watch face 
+complications with WebHooks. You can also use IFTTT and Zapier to update the WebHooks.
 
 [![Complicated Watch Your Text Here](https://mikelyons.org/images/complicated/watch_your_message_250.png)](https://mikelyons.org/complicated)
 
