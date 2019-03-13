@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import pathlib
 from setuptools import setup, find_packages
 
 # The directory containing this file
