@@ -8,7 +8,7 @@ with open( 'Readme.md' ) as f:
 
 setup(
     name='complicated',
-    version='1.0.0',
+    version='1.1.0',
     description='Complicated python api. Control Apple Watch Complications with WebHooks',
     long_description=README,
     long_description_content_type="text/markdown",

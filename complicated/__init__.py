@@ -1,1 +1,1 @@
-from lib import changeComplication, COMPLICATION_TYPES
+from .lib import changeComplication, COMPLICATION_TYPES
